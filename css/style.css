@@ -1,0 +1,38 @@
+body{
+    font-family: "Orbitron", sans-serif;
+}
+.main-header{
+    background-color: #212121;
+    color: #9A9999;
+    padding: 30px;
+}
+.main-nav ul li a{
+    color: #9A9999;
+    text-decoration: none;
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+
+}
+
+.main-nav nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.main-header .container-flex{
+    justify-content: space-between;
+}
+
+.main-nav ul li a:hover{
+    color: white;
+    transition: all 0.2s;
+}
