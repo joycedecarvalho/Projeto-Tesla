@@ -80,6 +80,10 @@ body{
     gap: 20px;
 }
 
+.hero-btns button:hover{
+    color: #fff;
+}
+
 .btn-primary{
     background-color: #212121;
     color: #9A9999;
@@ -88,7 +92,7 @@ body{
     font-family: "Orbitron", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 14px 80px;
+    padding: 14px 70px;
     border-radius: 2px;
 }
  .active{
@@ -147,3 +151,97 @@ body{
     color: #9A9999;
     letter-spacing: 10px;
  }
+
+ .full-banner{
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+ }
+
+ .full-banner h4{
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+ }
+
+ .btns-banner{
+    display: flex;
+    gap: 20px;
+ }
+
+ .btn{
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 14px 80px;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    cursor: pointer;
+ }
+ .btn:hover{
+    opacity: 0.9;
+    transition: all 0.2s;
+ }
+
+ .btn-blue{
+    background-color: #3e6ae1;
+    color: #fff;
+ }
+
+ .btn-white{
+    background-color: #fff;
+    color: #828282;
+ }
+
+ .botton-text{
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+ }
+
+ .botton-text p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #828282;
+    line-height: 1.8;
+    margin-bottom: 20px;
+ }
+
+ .text-block{
+    width: 40%;
+    margin: 0 auto;
+ }
+
+ .menu-footer{
+    text-align: center;
+    padding-bottom: 40px;
+ }
+
+ .menu-footer ul{
+    display: flex;
+    justify-content: space-between;
+ }
+ .menu-footer ul li a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu-footer ul li a:hover{
+    color: #3e6ae1;
+    transition: all 0.2s;
+}
+
+.brand-footer{
+    text-align: center;
+    padding: 40px 0;
+}
