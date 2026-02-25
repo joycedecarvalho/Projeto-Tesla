@@ -324,3 +324,67 @@ h3 {
    max-width: 100%;
    border-radius: 8px;
 }
+
+.contact-form{
+   background-color: #2E2E2E;
+   padding: 80px 0;
+}
+
+.contact-form h4{
+   color: #81A3FE;
+   font-size: 10px;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   margin-bottom: 40px;
+}
+
+.contact-form hr{
+   margin: 40px 0;
+   opacity: 0.2;
+}
+
+.form{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 20px;
+}
+
+.item-form{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-bottom: 10px;
+}
+
+.item-form label{
+   color: #C5C5C5;
+   font-size: 10px;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+}
+
+.item-form input{
+   height: 40px;
+   border-radius: 0;
+   border: none;
+   font-size: 16px;
+   font-family: "Orbitron", sans-serif;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.btn-black{
+   background-color: #000;
+   color: #9A9999;
+}
+
+.btn-black:hover{
+   color: #fff;
+   transition: all 0.2s;
+}
+
+.form-buttons{
+   display: flex;
+   justify-content: flex-end;
+   gap: 20px;
+}
