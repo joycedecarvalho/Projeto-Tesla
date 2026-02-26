@@ -213,13 +213,13 @@ h3 {
    color: #828282;
 }
 
-.botton-text {
+.bottom-text {
    background-color: #fff;
    padding: 60px 0;
    text-align: center;
 }
 
-.botton-text p {
+.bottom-text p {
    font-family: sans-serif;
    font-size: 12px;
    color: #828282;
@@ -251,7 +251,7 @@ h3 {
 }
 
 .menu-footer ul li a:hover {
-   color: #3e6ae1;
+   color: #ff2d2d;
    transition: all 0.2s;
 }
 
@@ -331,11 +331,12 @@ h3 {
 }
 
 .contact-form h4{
-   color: #81A3FE;
+   color: #ff2d2d;
    font-size: 10px;
    text-transform: uppercase;
    letter-spacing: 10px;
    margin-bottom: 40px;
+   font-weight: 600;
 }
 
 .contact-form hr{
@@ -387,4 +388,21 @@ h3 {
    display: flex;
    justify-content: flex-end;
    gap: 20px;
+}
+
+.mobile-nav div{
+   width: 32px;
+   height: 1px;
+   background-color: #fff;
+}
+
+.header-ligth .mobile-nav div{
+   background-color: #212121;
+}
+
+.mobile-nav{
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   display: none;
 }
